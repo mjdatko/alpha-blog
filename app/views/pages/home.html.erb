@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <title> Assignment home page </title>
+  <header> <h1>Alpha-blog home page</h1></header>
+  <body>
+    <p>Rails uses convention over configuration for productive developement
+    Eample of this is a created User model will save data in a table
+    named users.  Also the rails file structured when installed is already
+    configured for you.
+    </p>
+    <p> <h2>General flow of a Rails Application</h2>
+      <ul>
+        <li> A requestis made at the browser</li>
+        <li> The request is received by the router program</li>
+        <li> The router passes the request to a matched controller</li>
+        <li> The matched controller runs its program rendering a view or connects with a model</li>
+        <li> The model runs its program communicating with the database</li>
+        <li> The model sends information requested to the controller</li>
+        <li> The controller renders  the appropriate view</li>
+      </ul>
+      </p>
+      <pre>
+        <script type = "text/html">
+        document.write(SoureceCodeAsString);
+        </script>
+      </pre>
+   </body>
+   <%= link_to "About", about_path %>
+   <footer> Rails creator David Heinemeier Hansson</footer>
+</html>
